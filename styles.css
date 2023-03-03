@@ -1,5 +1,5 @@
 body{
-    margin: 20px;
+    margin: 50px 100px;
     background-color: #ffffff;
 }
 
@@ -14,6 +14,7 @@ body{
     max-width: 100%;
     padding: 20px;
     cursor: pointer;
+    font-size: 30px;
 }
 
 .label_tabs {
@@ -40,30 +41,45 @@ body{
     width: 100%;
     display: none;
     background-color: #c1c0bb;
-    padding: 20px;
+    padding: 20px 100px;
     justify-content: center;
     text-align: center;
     border-style: solid;
     border-color: black;
-    border-width: 8px;
+    border-width: 15px;
 }
 
 .radio_tabs:checked + .label_tabs + .content_tabs{
     display: initial;
 }
 
+h1{
+    font-size: 80px;
+    font-style: bold;
+}
+
+p{
+    font-size: 40px;
+}
+
 .au_pics{
     object-fit: cover;
-    max-width: 300px;
+    max-width: 500px;
     border-style: solid;
     border-color: black;
 }
 
 .pastries_pics{
     border-radius: 50%;
-    width: 100px;
-    height: 80px;
+    width: 300px;
+    height: 250px;
 }
+
+.pastries_content {
+    align-items: center;
+    justify-content: center;
+}
+
 
 .pastries_menu p{
     display: inline-block;
@@ -74,9 +90,16 @@ body{
 .item{
     text-align: left;
     width: 75%;
+
 }
 
 .price{
     text-align: right;
     width: 25%;
+
 }
+
+.footer{
+    display: none;
+}
+

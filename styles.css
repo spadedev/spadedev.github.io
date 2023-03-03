@@ -3,6 +3,11 @@ body{
     background-color: #ffffff;
 }
 
+@font-face{
+    font-family: 'Cocogoose';
+    src: url('Cocogoose_trial.otf');
+}
+
 .tabs {
     display: flex;
     flex-wrap: wrap;

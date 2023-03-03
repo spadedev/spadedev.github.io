@@ -1,0 +1,39 @@
+body{
+    margin: 50px;
+    background-color: #ffffff;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.label_tabs{
+    cursor: pointer;
+    padding: 10px 16px;
+}
+
+.radio_tabs{
+    display: none;
+}
+
+.content_tabs{
+    order: 1;
+    width: 100%;
+    display: none;
+    background-color: #c1c0bb;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.radio_tabs:checked + .label_tabs + .content_tabs{
+    display: initial;
+}
+
+.au_pics{
+    object-fit: cover;
+    max-width: 300px;
+}

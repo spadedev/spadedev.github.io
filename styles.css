@@ -1,5 +1,5 @@
 body{
-    margin: 50px;
+    margin: 20px;
     background-color: #ffffff;
 }
 
@@ -8,12 +8,24 @@ body{
     flex-wrap: wrap;
     max-width: 100%;
     padding: 20px;
+    cursor: pointer;
 }
 
-.label_tabs{
-    cursor: pointer;
-    padding: 10px 16px;
+.label_tabs {
+    display:inline-block;
+    background:#c1c0bb;
+    color:black;
+    cursor:pointer;
+    margin:0; padding:5px 25px 5px 15px;
+    -webkit-clip-path: polygon(100% 0, 90% 0, 100% 100%, 0 100%, 0.5% 0);
+    clip-path: polygon(100% 0, 90% 0, 100% 100%, 0 100%, 0.5% 0);
+
 }
+
+.radio_tabs:checked + .label_tabs{
+    background:black;
+    color:#c1c0bb;
+  }
 
 .radio_tabs{
     display: none;
@@ -27,6 +39,9 @@ body{
     padding: 20px;
     justify-content: center;
     text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 8px;
 }
 
 .radio_tabs:checked + .label_tabs + .content_tabs{
@@ -36,4 +51,6 @@ body{
 .au_pics{
     object-fit: cover;
     max-width: 300px;
+    border-style: solid;
+    border-color: black;
 }

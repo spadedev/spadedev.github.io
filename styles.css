@@ -23,8 +23,7 @@ body{
     cursor:pointer;
     margin:0; padding:5px 25px 5px 15px;
     -webkit-clip-path: polygon(100% 0, 90% 0, 100% 100%, 0 100%, 0.5% 0);
-    clip-path: polygon(100% 0, 90% 0, 100% 100%, 0 100%, 0.5% 0);
-
+    clip-path: polygon(100% 0, 80% 0, 100% 100%, 0 100%, 0.5% 0);
 }
 
 .radio_tabs:checked + .label_tabs{
@@ -58,4 +57,26 @@ body{
     max-width: 300px;
     border-style: solid;
     border-color: black;
+}
+
+.pastries_pics{
+    border-radius: 50%;
+    width: 100px;
+    height: 80px;
+}
+
+.pastries_menu p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.item{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
 }

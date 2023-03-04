@@ -1,11 +1,7 @@
 body{
     margin: 50px 100px;
     background-color: #ffffff;
-}
-
-@font-face{
     font-family: 'COCOGOOSE', sans-serif;
-    src: url('Cocogoose_trial.otf');
 }
 
 .tabs {
@@ -43,7 +39,7 @@ body{
     background-color: #c1c0bb;
     padding: 20px 100px;
     justify-content: center;
-    text-align: justify;
+    text-align: center;
     border-style: solid;
     border-color: black;
     border-width: 15px;
@@ -53,9 +49,10 @@ body{
     display: initial;
 }
 
-h1{
-    font-size: 80px;
-    font-style: bold;
+.header{
+    object-fit: cover;
+    max-width: 500px;
+    padding: 40px;
 }
 
 p{
@@ -64,7 +61,7 @@ p{
 
 .au_pics{
     object-fit: cover;
-    max-width: 500px;
+    max-width: 700px;
     border-style: solid;
     border-color: black;
 }

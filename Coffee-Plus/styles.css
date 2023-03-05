@@ -97,6 +97,10 @@ p{
     width: 25%;
 }
 
+.footer{
+    text-align: center;
+}
+
 .parent {
     position: relative;
     top: 100px;
@@ -127,7 +131,4 @@ p{
     left: 100px;
 }
 
-.footer{
-    display: none;
-}
 

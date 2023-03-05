@@ -95,7 +95,36 @@ p{
 .price{
     text-align: right;
     width: 25%;
+}
 
+.parent {
+    position: relative;
+    top: 100px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 100px;
+}
+
+.image1 {
+    border-radius: 50%;
+    max-width: 100%;
+    width: 200px;
+    height: 150px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.image2 {
+    border-radius: 50%;
+    max-width: 100%;
+    width: 200px;
+    height: 150px;
+    pointer-events: none;
+    user-select: none;
+    position: relative;
+    left: 100px;
 }
 
 .footer{

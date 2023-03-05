@@ -101,34 +101,67 @@ p{
     text-align: center;
 }
 
-.parent {
-    position: relative;
-    top: 100px;
-    left: 0;
+
+.container {
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding-bottom: 100px;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    padding: 1px;
+    border-bottom: 1px solid black;
 }
 
-.image1 {
-    border-radius: 50%;
+.drinks_image {
+    flex: 1 0 200px;
+    
+}
+
+.drinks_image img {
     max-width: 100%;
-    width: 200px;
     height: 150px;
-    pointer-events: none;
-    user-select: none;
-}
-
-.image2 {
+    width: 150px;
     border-radius: 50%;
-    max-width: 100%;
-    width: 200px;
-    height: 150px;
-    pointer-events: none;
-    user-select: none;
-    position: relative;
-    left: 100px;
+    object-fit: cover;
+}
+
+.drinks_text {
+    flex: 2 1 400px;
+    margin-bottom: 5px;
 }
 
 
+.drinks_header img{
+    padding-top: 150px;
+    width: 130px;
+    height: 130px;
+
+}
+
+.drinks_header p{
+    flex-grow: 3;
+}
+
+.drinks_content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.drinks_content table{
+    font-size: 16px;
+    border-collapse: collapse;
+    border-style: hidden;
+    margin-bottom: 40px;
+}
+
+.drinks_content table td {
+    padding: 1rem;
+    border-left: 3px solid black;
+}
+
+.drinks_content table tr{
+    width: 100%;
+    padding: 1rem;
+}

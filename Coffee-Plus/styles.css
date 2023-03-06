@@ -123,6 +123,8 @@ p{
     width: 150px;
     border-radius: 50%;
     object-fit: cover;
+    pointer-events: none;
+    user-select: none;
 }
 
 .drinks_text {
@@ -135,6 +137,8 @@ p{
     padding-top: 150px;
     width: 130px;
     height: 130px;
+    pointer-events: none;
+    user-select: none;
 
 }
 

@@ -1,5 +1,5 @@
 body{
-    margin: 50px 100px;
+    margin: 0px 100px;
     background-color: #ffffff;
     font-family: 'COCOGOOSE', sans-serif;
 }
@@ -68,42 +68,6 @@ p{
     user-select: none;
 }
 
-.pastries_pics{
-    border-radius: 50%;
-    width: 300px;
-    height: 250px;
-    pointer-events: none;
-    user-select: none;
-}
-
-.pastries_content {
-    align-items: center;
-    justify-content: center;
-}
-
-
-.pastries_menu p{
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.item{
-    text-align: left;
-    width: 75%;
-
-}
-
-.price{
-    text-align: right;
-    width: 25%;
-}
-
-.footer{
-    text-align: center;
-}
-
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -132,7 +96,6 @@ p{
     flex: 2 1 400px;
     margin-bottom: 5px;
 }
-
 
 .drinks_header img{
     padding-top: 150px;
@@ -168,4 +131,54 @@ p{
 .drinks_content table tr{
     width: 100%;
     padding: 1rem;
+}
+
+.pastries_header img{
+    width: 150px;
+    object-fit: cover;
+    float: left;
+    padding: 0px 0px 0px 230px;
+    margin: 0;
+}
+
+.pastries_header h1{
+    margin: 0;
+    text-align: left;
+    font-size: 100px;
+}
+
+.pastries{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+}
+
+.p_img{
+    border-radius: 50%;
+    width: 300px;
+    height: 250px;
+    flex-grow: 1;
+}
+
+.p_text{
+    float: right;
+    flex-grow: 20;
+    margin: 0;
+    padding: 0;
+}
+
+.pastries_menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    border: 0;
+    border-top: 5px solid black;
+}
+
+.footer{
+    text-align: center;
 }

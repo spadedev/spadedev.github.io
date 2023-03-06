@@ -193,3 +193,7 @@ p{
 .footer{
     text-align: center;
 }
+
+.footer img{
+    height: 50px;
+}

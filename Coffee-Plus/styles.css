@@ -64,6 +64,8 @@ p{
     max-width: 700px;
     border-style: solid;
     border-color: black;
+    pointer-events: none;
+    user-select: none;
 }
 
 .pastries_pics{
@@ -114,7 +116,6 @@ p{
 
 .drinks_image {
     flex: 1 0 200px;
-    
 }
 
 .drinks_image img {
@@ -139,7 +140,6 @@ p{
     height: 130px;
     pointer-events: none;
     user-select: none;
-
 }
 
 .drinks_header p{

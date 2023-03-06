@@ -138,10 +138,10 @@ p{
 }
 
 .pastries_header img{
-    width: 150px;
+    width: 250px;
     object-fit: cover;
     float: left;
-    padding: 0px 0px 0px 250px;
+    padding: 0px 0px 0px 180px;
     margin: 0;
 }
 
@@ -180,9 +180,14 @@ p{
     padding: 0;
 }
 
-hr{
+.hr_header{
     border: 0;
     border-top: 5px solid black;
+}
+
+.hr_items{
+    border: 0;
+    border-top: 1px solid black;
 }
 
 .footer{
